@@ -13,7 +13,7 @@ const Cart = ({
         <td className="col-lg-2">{item.name}</td>
         <td className="col-lg-2">{item.count}</td>
         <td className="col-lg-2">
-          {"\u0024"}
+          Rs. 
           {Number((item.price * item.count).toFixed(2))}
         </td>
         <td className="col-lg-1">
@@ -80,7 +80,7 @@ const Cart = ({
             </td>
             <td className="col-4" colSpan="4">
               <h4>
-                {"\u0024"}
+                Rs.
                 {totalPrice}
               </h4>
             </td>
