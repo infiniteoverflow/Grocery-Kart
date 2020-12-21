@@ -14,7 +14,7 @@ const MyCard = ({item,handleCart,}) => {
             <div className="card-body">
               <h5 className="card-title">{item.name}</h5>
               <h6 className="card-text">
-                Price: {"\u0024"}
+                Price: Rs.
                 {item.price}{' \u002f '}kg
               </h6>
               <button
